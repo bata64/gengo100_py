@@ -13,4 +13,3 @@ for word in list1:
     count_list.append(count)
 
 print(count_list)
-
