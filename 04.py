@@ -11,7 +11,6 @@ dic1 = {}
 for word in list1:
     if re.compile(r'^(1|5|6|7|8|9|15|16|19)$').search( str(num) ):
         dic1[num] = word[0]
-        print(num)
     else:
         dic1[num] = word[0] + word[1]
     num += 1
